@@ -7,8 +7,14 @@
     list-style: none;
 }
 
+img {
+    display: block;
+    max-width: 100%;
+}
+
 a {
     color: inherit;
+    padding: 8px 16px;
 }
 
 .container {
@@ -17,16 +23,16 @@ a {
 }
 
 .superinfo-bg {
-    border: 1px solid red;
     background-color: blue;
     color: white;
 }
 
 .superinfo-bg .superinfo {
-    border: 1px solid red;
-    padding: 20px 0;
+    padding: 20px 10px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .menu-bg {
@@ -34,10 +40,15 @@ a {
 }
 
 .menu {
-    padding: 20px 0;
+    padding: 20px 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu-logo > a {
+    padding: 0;
 }
 
 .logo {
@@ -48,6 +59,7 @@ a {
 
 .ul-header {
    display: flex;
+   flex-wrap: wrap;
    gap: 20px;
    color: white;
 }
