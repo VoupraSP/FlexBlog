@@ -56,6 +56,31 @@ a {
     color: rgb(95, 88, 88);
 }
 
+.introducao {
+    padding: 60px 10px;
+}
+
+.sobre {
+    border-top: 4px solid rgb(68, 132, 252);;
+    padding: 60px 10px;
+    display: flex;
+    gap: 20px;
+}
+
+.sobre .sobre-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.sobre .sobre-info h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.sobre .sobre-info p {
+    font-size: 1.5rem;
+    color: gray;
+}
 
 
 
